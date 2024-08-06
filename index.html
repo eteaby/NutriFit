@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NutriFit offers personalized fitness and nutrition courses to help you transform your lifestyle. Join us today for a healthier you!">
+  <title>NutriFit - Fitness & Nutrition</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <style>
+    /* Custom styles to apply the Montserrat font family */
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800">
+  
+  <!-- Header -->
+  <header class="bg-white shadow-md">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold text-gray-900">NutriFit<span class="text-orange-600">.</span></a>
+      <nav class="hidden md:flex space-x-6">
+        <a href="#home" class="text-gray-700 hover:text-orange-600 transition">Home</a>
+        <a href="#about" class="text-gray-700 hover:text-orange-600 transition">About Us</a>
+        <a href="#course" class="text-gray-700 hover:text-orange-600 transition">Courses</a>
+        <a href="#contact" class="text-gray-700 hover:text-orange-600 transition">Contact</a>
+      </nav>
+      <a href="#" class="hidden md:block bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-500 transition">Sign Up</a>
+      <button class="block md:hidden text-2xl text-gray-700" aria-label="Toggle menu">
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+    </div>
+  </header>
+   
+  <section id="home"
+  class="relative h-screen bg-cover bg-center" style="background-image: url('./assets/images/hero-banner.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+      <div class="text-center text-white px-6">
+        <p class="text-lg font-semibold mb-2">Fitness & Nutrition</p>
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Transform Your Lifestyle</h1>
+        <p class="text-lg mb-6">A journey to a healthier you.</p>
+        <a href="#" class="bg-orange-600 text-white px-6 py-3 rounded hover:bg-orange-500 transition">Start Course</a>
+        <ul class="flex justify-center mt-6 space-x-4">
+          <li>
+            <a href="#" class="text-white text-2xl hover:text-orange-600 transition"><ion-icon name="logo-facebook"></ion-icon></a>
+          </li>
+          <li>
+            <a href="#" class="text-white text-2xl hover:text-orange-600 transition"><ion-icon name="logo-twitter"></ion-icon></a>
+          </li>
+          <li>
+            <a href="#" class="text-white text-2xl hover:text-orange-600 transition"><ion-icon name="logo-linkedin"></ion-icon></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+<section 
+class="py-16 bg-gray-50" id="services">
+  <div class="container mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-10">Our Courses</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-lg shadow-lg text-center transition-transform transform hover:scale-105 hover:shadow-xl">
+        <img src="./assets/images/service-1.svg" alt="Women’s Course" class="mx-auto mb-4 w-20 h-20">
+        <h3 class="text-xl font-semibold mb-2">Women’s Course</h3>
+        <p class="text-gray-600 mb-4">Empowering women's health through personalized training.</p>
+        <a href="#" class="bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-500 transition">Learn More</a>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-lg text-center transition-transform transform hover:scale-105 hover:shadow-xl">
+        <img src="./assets/images/service-2.svg" alt="Basic Course" class="mx-auto mb-4 w-20 h-20">
+        <h3 class="text-xl font-semibold mb-2">Basic Course</h3>
+        <p class="text-gray-600 mb-4">Start your fitness journey with the essentials.</p>
+        <a href="#" class="bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-500 transition">Learn More</a>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-lg text-center transition-transform transform hover:scale-105 hover:shadow-xl">
+        <img src="./assets/images/service-3.svg" alt="Men’s Course" class="mx-auto mb-4 w-20 h-20">
+        <h3 class="text-xl font-semibold mb-2">Men’s Course</h3>
+        <p class="text-gray-600 mb-4">Build strength and endurance with expert guidance.</p>
+        <a href="#" class="bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-500 transition">Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- New Section: What We Offer -->
+
+<section  id="about"
+class="py-16 bg-gray-50" id="offerings">
+  <div class="container mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-8">What We Offer</h2>
+    <p class="text-gray-700 mb-12">Discover the unique benefits and features we offer to help you achieve your fitness goals and maintain a healthy lifestyle. Our offerings are designed to provide you with the tools and support you need to succeed in your fitness journey.</p>
+    <div class="relative">
+      <div class="absolute inset-0 bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 opacity-20 -z-10"></div>
+      <div class="grid md:grid-cols-3 gap-12">
+        <!-- Offering 1 -->
+        <div class="flex flex-col items-center space-y-4 p-8 transition-transform transform hover:scale-105 animate__animated animate__fadeIn animate__delay-1s">
+          <div class="text-orange-500 text-6xl mb-4">
+            <i class="fas fa-dumbbell"></i> <!-- Updated Icon -->
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Customized Plans</h3>
+          <p class="text-gray-600">Tailored workout and nutrition plans to meet your individual needs and help you achieve your fitness goals.</p>
+        </div>
+        <!-- Offering 2 -->
+        <div class="flex flex-col items-center space-y-4 p-8 transition-transform transform hover:scale-105 animate__animated animate__fadeIn animate__delay-2s">
+          <div class="text-orange-500 text-6xl mb-4">
+            <i class="fas fa-user-md"></i> <!-- Updated Icon -->
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Expert Guidance</h3>
+          <p class="text-gray-600">Receive expert advice and support from experienced trainers and health professionals to ensure your success.</p>
+        </div>
+        <!-- Offering 3 -->
+        <div class="flex flex-col items-center space-y-4 p-8 transition-transform transform hover:scale-105 animate__animated animate__fadeIn animate__delay-3s">
+          <div class="text-orange-500 text-6xl mb-4">
+            <i class="fas fa-calendar-alt"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Flexible Scheduling</h3>
+          <p class="text-gray-600">Enjoy the flexibility to choose from a variety of class times that fit your busy schedule, making it easier to stay on track.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Our Instructors Section -->
+<section class="py-16 bg-white" id="instructors">
+  <div class="container mx-auto">
+    <h2 class="text-3xl font-bold mb-12 text-center">Our Instructors</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- Instructor 1 -->
+      <div class="bg-white p-6 rounded-lg shadow-lg text-center relative transition-transform transform hover:scale-105">
+        <img src="./assets/images/img1.jpg" alt="Instructor 1" class="w-32 h-32 rounded-full mx-auto -mt-16 mb-6 object-cover shadow-lg">
+        <h3 class="text-xl font-semibold mb-3">Sarah Johnson</h3>
+        <p class="text-gray-600 mb-6">Expert in strength training with over 10 years of experience.</p>
+      </div>
+      <!-- Instructor 2 -->
+      <div class="bg-white p-6 rounded-lg shadow-lg text-center relative transition-transform transform hover:scale-105">
+        <img src="./assets/images/img2.jpg" alt="Instructor 2" class="w-32 h-32 rounded-full mx-auto -mt-16 mb-6 object-cover shadow-lg">
+        <h3 class="text-xl font-semibold mb-3">David Lee</h3>
+        <p class="text-gray-600 mb-6">Certified yoga instructor specializing in flexibility and relaxation techniques.</p>
+      </div>
+      <!-- Instructor 3 -->
+      <div class="bg-white p-6 rounded-lg shadow-lg text-center relative transition-transform transform hover:scale-105">
+        <img src="./assets/images/img3.jpg" alt="Instructor 3" class="w-32 h-32 rounded-full mx-auto -mt-16 mb-6 object-cover shadow-lg">
+        <h3 class="text-xl font-semibold mb-3">Emily Martinez</h3>
+        <p class="text-gray-600 mb-6">Professional nutritionist with a focus on holistic health and wellness.</p>
+      </div>
+    </div>
+    <div class="text-center mt-12">
+      <a href="#" class="bg-orange-600 text-white px-6 py-3 rounded hover:bg-orange-500 transition">Meet Our Instructors</a>
+    </div>
+  </div>
+</section>
+
+<!-- Courses Section -->
+<section  id="course"
+class="py-16 bg-gray-100" id="courses">
+  <div class="container mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-8">Our Nutrition and Fitness Courses</h2>
+    <p class="text-gray-700 mb-12">Explore our tailored nutrition and fitness programs designed to help you reach your health goals effectively. Our diverse courses are crafted to provide comprehensive solutions for both your fitness and dietary needs, ensuring a balanced approach to wellness.</p>
+    <div class="relative">
+      <div class="absolute inset-0 bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 opacity-10 -z-10"></div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <!-- Fitness Course 1 -->
+        <div class="flex items-center mb-8 lg:mb-0 opacity-0 animate__animated animate__fadeIn animate__delay-1s hover:scale-105 transition-transform transform">
+          <div class="text-6xl text-orange-600 mr-6">
+            <i class="fas fa-dumbbell"></i>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Yoga Basics</h3>
+            <p class="text-gray-600 mb-2">Learn the fundamentals of yoga with our beginner-friendly classes.</p>
+            <div class="text-2xl font-bold text-orange-600">49birr</div>
+            <div class="text-gray-500">per course</div>
+          </div>
+        </div>
+        <!-- Fitness Course 2 -->
+        <div class="flex items-center mb-8 lg:mb-0 opacity-0 animate__animated animate__fadeIn animate__delay-2s hover:scale-105 transition-transform transform">
+          <div class="text-6xl text-orange-600 mr-6">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">HIIT Workouts</h3>
+            <p class="text-gray-600 mb-2">Push your limits with intense HIIT workouts designed for maximum results.</p>
+            <div class="text-2xl font-bold text-orange-600">69birr</div>
+            <div class="text-gray-500">per course</div>
+          </div>
+        </div>
+        <!-- Fitness Course 3 -->
+        <div class="flex items-center mb-8 lg:mb-0 opacity-0 animate__animated animate__fadeIn animate__delay-3s hover:scale-105 transition-transform transform">
+          <div class="text-6xl text-orange-600 mr-6">
+            <i class="fas fa-person-running"></i>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Pilates</h3>
+            <p class="text-gray-600 mb-2">Strengthen your core and improve flexibility with our Pilates classes.</p>
+            <div class="text-2xl font-bold text-orange-600">59birr</div>
+            <div class="text-gray-500">per course</div>
+          </div>
+        </div>
+        <!-- Nutrition Course 1 -->
+        <div class="flex items-center mb-8 lg:mb-0 opacity-0 animate__animated animate__fadeIn animate__delay-4s hover:scale-105 transition-transform transform">
+          <div class="text-6xl text-orange-600 mr-6">
+            <i class="fas fa-apple-alt"></i>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Healthy Eating</h3>
+            <p class="text-gray-600 mb-2">Understand the basics of nutrition and how to make healthy food choices.</p>
+            <div class="text-2xl font-bold text-orange-600">39birr</div>
+            <div class="text-gray-500">per course</div>
+          </div>
+        </div>
+        <!-- Nutrition Course 2 -->
+        <div class="flex items-center mb-8 lg:mb-0 opacity-0 animate__animated animate__fadeIn animate__delay-5s hover:scale-105 transition-transform transform">
+          <div class="text-6xl text-orange-600 mr-6">
+            <i class="fas fa-utensils"></i>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Meal Planning and Prep</h3>
+            <p class="text-gray-600 mb-2">Learn how to plan and prepare nutritious meals efficiently.</p>
+            <div class="text-2xl font-bold text-orange-600">49birr</div>
+            <div class="text-gray-500">per course</div>
+          </div>
+        </div>
+        <!-- Nutrition Course 3 -->
+        <div class="flex items-center opacity-0 animate__animated animate__fadeIn animate__delay-6s hover:scale-105 transition-transform transform">
+          <div class="text-6xl text-orange-600 mr-6">
+            <i class="fas fa-carrot"></i>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Advanced Nutrition</h3>
+            <p class="text-gray-600 mb-2">Delve into advanced topics in nutrition and how to apply them effectively.</p>
+            <div class="text-2xl font-bold text-orange-600">59birr</div>
+            <div class="text-gray-500">per course</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer id="contact"
+class="bg-gray-800 text-white py-12">
+  <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+    <!-- Footer Navigation -->
+    <div class="mb-8 md:mb-0">
+      <h2 class="text-lg font-semibold mb-4">Quick Links</h2>
+      <ul class="space-y-2">
+        <li><a href="#home" class="hover:underline">Home</a></li>
+        <li><a href="#services" class="hover:underline">Our Services</a></li>
+        <li><a href="#about" class="hover:underline">What We Offer</a></li>
+        <li><a href="#instructors" class="hover:underline">Our Instructors</a></li>
+        <li><a href="#contact" class="hover:underline">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Information -->
+    <div  class="mb-8 md:mb-0">
+      <h2 class="text-lg font-semibold mb-4">Contact Information</h2>
+      <p class="mb-2"><i class="fas fa-map-marker-alt"></i> 123 Fitness Ave, Workout City, CA 90000</p>
+      <p class="mb-2"><i class="fas fa-phone"></i> (123) 456-7890</p>
+      <p class="mb-2"><i class="fas fa-envelope"></i> info@fitnesscenter.com</p>
+    </div>
+
+    <!-- Social Media -->
+    <div class="mb-8 md:mb-0">
+      <h2 class="text-lg font-semibold mb-4">Follow Us</h2>
+      <div class="flex space-x-4">
+        <a href="#" class="text-gray-400 hover:text-white transition">
+          <i class="fab fa-facebook-f fa-lg"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-white transition">
+          <i class="fab fa-twitter fa-lg"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-white transition">
+          <i class="fab fa-instagram fa-lg"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-white transition">
+          <i class="fab fa-linkedin-in fa-lg"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Newsletter Signup -->
+    <div class="w-full md:w-1/3">
+      <h2 class="text-lg font-semibold mb-4">Newsletter Signup</h2>
+      <form action="#" method="POST" class="flex flex-col md:flex-row">
+        <input type="email" placeholder="Enter your email" class="p-2 rounded-l-md w-full md:w-2/3 mb-2 md:mb-0 text-gray-800" required>
+        <button type="submit" class="bg-orange-600 text-white p-2 rounded-r-md w-full md:w-1/3">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="bg-gray-800 text-gray-400 py-4">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 NutriFit. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js" ></script>
+
+
+</body>
+
+</html>
